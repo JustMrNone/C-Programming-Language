@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",    
+            "type": "cppdbg",          
+            "request": "launch",       
+            "program": "${workspaceFolder}/Chapter-1/out/${fileBasenameNoExtension}.exe",  // Use the current file
+            "args": [],                
+            "stopAtEntry": false,      
+            "cwd": "${workspaceFolder}",    
+            "environment": [],         
+            "externalConsole": true,   
+            "MIMode": "gdb",           
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe",  // Path to gdb.exe
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",  // Optional: name of the build task
+            "internalConsoleOptions": "openOnSessionStart", // Opens internal console on start
+            "logging": {
+                "trace": true,
+                "traceResponse": true,
+                "engineLogging": false,
+                "programOutput": true,
+                "exceptions": true
+            }
+        }
+    ]
+}

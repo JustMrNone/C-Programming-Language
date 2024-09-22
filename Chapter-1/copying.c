@@ -2,8 +2,9 @@
 
 int main()
 {
-    char a;
+    int a;
     a = getchar();
+    //EOF = End Of File
     while(a != EOF)
     {
         putchar(a);

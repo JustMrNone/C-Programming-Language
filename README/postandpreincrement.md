@@ -13,7 +13,7 @@ Example:
 
 int n = 5;
 int result = ++n;  // n is incremented first, then assigned
-// n is now 6, result is 6`
+// n is now 6, result is 6
 ```
 
 ### 2\. `n++` (Post-increment)
@@ -27,7 +27,7 @@ Example:
 
 int n = 5;
 int result = n++;  // n is assigned to result, then incremented
-// result is 5, but n is now 6`
+// result is 5, but n is now 6
 ```
 
 ### Summary

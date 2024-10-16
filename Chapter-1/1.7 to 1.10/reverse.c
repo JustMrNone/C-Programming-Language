@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-//use symbolic variables
+//use symbolic constants
 #define MAX 1000
 
 void reverse(char s[]);
